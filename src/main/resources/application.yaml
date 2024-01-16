@@ -3,13 +3,10 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/basic_subject_management
+    url: jdbc:postgresql://localhost:5432/english_practice
     username: postgres
     password: 123456
   jpa:
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: update
 
